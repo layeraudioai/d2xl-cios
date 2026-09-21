@@ -22,6 +22,27 @@ NO ONE BUT YOURSELF IS RESPONSIBLE FOR ANY DAMAGE TO YOUR WII CONSOLE BECAUSE OF
   The d2xl cIOS is an enhanced version of the d2x cIOS, which is based on the cIOSX rev21 by Waninkoko. 
 
 
+#### Wii Mini optical media limitation
+
+  d2xl can change IOS/DIP behavior after the optical drive has accepted a disc, but it cannot
+  enable a medium that the drive firmware or optical pickup rejects. In this source tree the
+  DIP plugin only receives the drive command result and reads Wii DVD sectors; it has no
+  interface for the pickup potentiometer, laser power, focus, or any analog measurements.
+
+  This tree includes an opt-in Wii Mini cover override for lawful homebrew/media testing.
+  Homebrew can enable it with `IOCTL_DI_COVER_OVERRIDE_SET` (`0xFB`, nonzero = enabled,
+  zero = disabled) and inspect it with `IOCTL_DI_COVER_OVERRIDE_GET` (`0xFC`). While enabled,
+  the DIP layer reports cover-close/cover-status requests as closed even on the physical
+  drive path, so testers can identify whether an IOS-side poptop check is the immediate
+  blocker for smaller discs.
+
+  The override does not change the optical pickup, laser power, drive firmware, supported
+  sector formats, or disc authentication. CD, mini-CD, recordable media, and dual-layer
+  reliability remain limited by the physical drive and its firmware; unsupported media will
+  still fail at the hardware read command. Do not treat a cIOS build as a replacement for a
+  potentiometer adjustment or as a way to spoof the pickup's analog measurements.
+
+
 #### KUDOS
 
  * *rodries*, for the help with EHCI improvements.

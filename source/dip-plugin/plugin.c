@@ -39,6 +39,11 @@ static struct dipConfig config = { 0 };
 static struct dipConfigState dipCfgState = { 0 };
 static struct ffsConfigState ffsCfgState = { 0 };
 
+static s32 __DI_ShouldEmulateCover(void)
+{
+	return DI_ChkMode(MODE_EMUL | MODE_COVER_OVERRIDE);
+}
+
 static s32 __DI_CheckOffset(u32 offset)
 {
 	u32 offmax;
@@ -394,7 +399,7 @@ s32 DI_EmulateCmd(u32 *inbuf, u32 *outbuf, u32 size)
 	/** Request cover status **/
 	case IOCTL_DI_REQCOVER: {
 		/* Check modes */
-		res = DI_ChkMode(MODE_EMUL);
+		res = __DI_ShouldEmulateCover();
 
 		/* Request cover status */
 		if (res)
@@ -572,6 +577,32 @@ s32 DI_EmulateCmd(u32 *inbuf, u32 *outbuf, u32 size)
 		break;
 	}
 
+	/** Set physical cover override mode **/
+	case IOCTL_DI_COVER_OVERRIDE_SET: {
+		/* Check running title */
+		if (Stealth_CheckRunningTitle("IOCTL_DI_COVER_OVERRIDE_SET"))
+			goto handle_cmd;
+
+		u32 mode = inbuf[1];
+
+		if (mode)
+			DI_SetMode(MODE_COVER_OVERRIDE);
+		else
+			DI_DelMode(MODE_COVER_OVERRIDE);
+
+		break;
+	}
+
+	/** Get physical cover override mode **/
+	case IOCTL_DI_COVER_OVERRIDE_GET: {
+		/* Check running title */
+		if (Stealth_CheckRunningTitle("IOCTL_DI_COVER_OVERRIDE_GET"))
+			goto handle_cmd;
+
+		*outbuf = DI_ChkMode(MODE_COVER_OVERRIDE);
+		break;
+	}
+
 	/** Save config **/
 	case IOCTL_DI_SAVE_CONFIG: {
 		/* Block any request not coming from ES */
@@ -687,7 +718,7 @@ s32 DI_EmulateIoctl(ioctl *buffer, s32 fd)
 	/** Wait for cover close **/
 	case IOCTL_DI_WAITCVRCLOSE: {
 		/* Check modes */
-		res = DI_ChkMode(MODE_EMUL);
+		res = __DI_ShouldEmulateCover();
 
 		/* Wait for cover close */
 		if (!res)
@@ -699,7 +730,7 @@ s32 DI_EmulateIoctl(ioctl *buffer, s32 fd)
 	/** Get cover register **/
 	case IOCTL_DI_COVER_REG: {
 		/* Check modes */
-		res = DI_ChkMode(MODE_EMUL);
+		res = __DI_ShouldEmulateCover();
 
 		/* Get cover register */
 		if (res)
@@ -713,7 +744,7 @@ s32 DI_EmulateIoctl(ioctl *buffer, s32 fd)
 	/** Clear cover interrupt **/
 	case IOCTL_DI_COVER_CLEAR: {
 		/* Check modes */
-		res = DI_ChkMode(MODE_EMUL);
+		res = __DI_ShouldEmulateCover();
 
 		/* Clear cover interrupt */
 		if (res)
@@ -727,7 +758,7 @@ s32 DI_EmulateIoctl(ioctl *buffer, s32 fd)
 	/** Get cover status **/
 	case IOCTL_DI_COVER_STATUS: {
 		/* Check modes */
-		res = DI_ChkMode(MODE_EMUL);
+		res = __DI_ShouldEmulateCover();
 
 		/* Get cover status */
 		if (res)
@@ -741,7 +772,7 @@ s32 DI_EmulateIoctl(ioctl *buffer, s32 fd)
 	/** Get status register **/
 	case IOCTL_DI_STATUS_REG: {
 		/* Check modes */
-		res = DI_ChkMode(MODE_EMUL);
+		res = __DI_ShouldEmulateCover();
 
 		/* Get status register */
 		if (res)

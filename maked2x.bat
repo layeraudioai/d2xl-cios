@@ -11,9 +11,9 @@ if "%1"=="clean" goto :make_clean
 :: Set default values
 set "clean="
 set "major_ver=%1"
-if "%major_ver%"=="" set "major_ver=999" 
+if "%major_ver%"=="" set "major_ver=666" 
 set "minor_ver=%2" 
-if "%minor_ver%"=="" set "minor_ver=unknown" 
+if "%minor_ver%"=="" set "minor_ver=xbcx" 
 set "dist=%3" 
 
 :: Check arguments

@@ -1,8 +1,8 @@
 # devkitARM path
-DEVKITARM ?=	/opt/devkitARM
+DEVKITARM ?=	/c/devkitPro/devkitARM
 
 # Prefix
-PREFIX	=	$(DEVKITARM)/bin/arm-eabi-
+PREFIX	=	$(DEVKITARM)/bin/arm-none-eabi-
 
 # Executables
 CC	=	$(PREFIX)gcc
@@ -29,7 +29,7 @@ endif
 
 # Flags
 ARCH	=	-mcpu=arm926ej-s -mthumb -mthumb-interwork -mbig-endian
-CFLAGS	=	$(ARCH) -I. -I../cios-lib -fomit-frame-pointer -Os -Wall -D__TIME__=\"$(BUILD_TIME)\" -D__DATE__=\"$(BUILD_DATE)\" -D__D2XL_VER__=\"$(D2XL_VER)\" -Wno-builtin-macro-redefined
+CFLAGS	=	$(ARCH) -I. -I../cios-lib -std=gnu99 -fcommon -fomit-frame-pointer -Os -Wall -D__TIME__=\"$(BUILD_TIME)\" -D__DATE__=\"$(BUILD_DATE)\" -D__D2XL_VER__=\"$(D2XL_VER)\" -Wno-builtin-macro-redefined
 LDFLAGS	=	$(ARCH) -nostartfiles -Wl,-T,link.ld,-Map,$(TARGET).map -Wl,--gc-sections -Wl,-static
 
 # Libraries

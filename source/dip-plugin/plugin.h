@@ -37,6 +37,7 @@
 #define MODE_CRYPT		0x02
 #define MODE_WBFS		0x04
 #define MODE_FRAG		0x10
+#define MODE_COVER_OVERRIDE	0x20
 #define MODE_EMUL		( MODE_WBFS | MODE_FRAG )
 
 /* Macros */
