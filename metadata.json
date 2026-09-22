@@ -1,0 +1,8 @@
+{
+  "name": "d2xl cIOS Studio",
+  "description": "Interactive configuration builder, ciosmaps XML generator, patch visualizer, and module inspector for d2xl custom IOS on Wii, Wii Mini, and vWii.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
