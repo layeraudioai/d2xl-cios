@@ -1,0 +1,246 @@
+{
+  "schema": "wii-mini-gc-wad-patch-prep-v1",
+  "status": "read-only-prep-complete",
+  "notes": [
+    "No WAD data was decrypted, extracted, modified, or repacked.",
+    "Do not install patched System Menu, BC, or MIOS WADs without a hardware-specific recovery plan.",
+    "Next reverse-engineering step is to compare/decrypt boot content locally using user-provided lawful material and keys; do not commit keys or decrypted Nintendo code."
+  ],
+  "wads": [
+    {
+      "role": "system-menu",
+      "path": "wads/System Menu (Unknown v4610).wad",
+      "file_size": 23730880,
+      "sha256": "0d6a539749dd63c78afbf36bd0df383968c132851f3131ca7e4d0b8270647608",
+      "wad_type": "0x49730000",
+      "title_id": "0000000100000002",
+      "title": "00000001-00000002 (System Menu)",
+      "title_version": 4610,
+      "content_count": 9,
+      "boot_index": 8,
+      "layout": {
+        "cert_offset": 64,
+        "crl_offset": 2624,
+        "ticket_offset": 2624,
+        "tmd_offset": 3328,
+        "data_offset": 4160,
+        "footer_offset": 23730816,
+        "end_offset": 23730880
+      },
+      "target_note": "System Menu boot content: likely main executable/content to reverse engineer for Disc Channel GC visibility and launch gating.",
+      "boot_content": {
+        "content_id": "00000008",
+        "index": 8,
+        "type_flags": "0x0001",
+        "type_flags_text": "normal",
+        "size": 3867904,
+        "data_offset": 19862912,
+        "sha1": "05edd0a82d08c3c6e48b8030cea13c420dbea003",
+        "is_boot": true
+      },
+      "contents": [
+        {
+          "content_id": "00000000",
+          "index": 0,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 64,
+          "data_offset": 4160,
+          "sha1": "1a96cce85c474ce2760216c39b2ac4ee5e200c9a",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000001",
+          "index": 1,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 7617767,
+          "data_offset": 4224,
+          "sha1": "957d10b71669f4ed68182a1079221594d1a1efbf",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000002",
+          "index": 2,
+          "type_flags": "0x8001",
+          "type_flags_text": "normal,optional",
+          "size": 4559887,
+          "data_offset": 7622016,
+          "sha1": "f5dd17b3200dd4d6be2b25b577c99e5f941b7324",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000003",
+          "index": 3,
+          "type_flags": "0x8001",
+          "type_flags_text": "normal,optional",
+          "size": 2669044,
+          "data_offset": 12181952,
+          "sha1": "32b339cbbb507d502779259a7866995d030b1d88",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000004",
+          "index": 4,
+          "type_flags": "0x8001",
+          "type_flags_text": "normal,optional",
+          "size": 686468,
+          "data_offset": 14851008,
+          "sha1": "5f1bb7b02794b14e88b72269a3376d23051dad1d",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000005",
+          "index": 5,
+          "type_flags": "0x8001",
+          "type_flags_text": "normal,optional",
+          "size": 3649020,
+          "data_offset": 15537536,
+          "sha1": "4fad97fd4a288c47e0587f3bbd292379f8709eb9",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000006",
+          "index": 6,
+          "type_flags": "0x8001",
+          "type_flags_text": "normal,optional",
+          "size": 606016,
+          "data_offset": 19186560,
+          "sha1": "76abfbeacb2c4ca4eb3f036413c7e001fdab7b26",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000007",
+          "index": 7,
+          "type_flags": "0x8001",
+          "type_flags_text": "normal,optional",
+          "size": 70336,
+          "data_offset": 19792576,
+          "sha1": "2f28d4b6daebeb15801477c6bebc5f37c0909eae",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000008",
+          "index": 8,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 3867904,
+          "data_offset": 19862912,
+          "sha1": "05edd0a82d08c3c6e48b8030cea13c420dbea003",
+          "is_boot": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "role": "bc",
+      "path": "wads/BC v6.wad",
+      "file_size": 24576,
+      "sha256": "57361b658a53e9cdef571f4bcee5f1f7d764a06bd8b7383ba0f1c643f53814b2",
+      "wad_type": "0x49730000",
+      "title_id": "0000000100000100",
+      "title": "00000001-00000100 (BC)",
+      "title_version": 6,
+      "content_count": 2,
+      "boot_index": 1,
+      "layout": {
+        "cert_offset": 64,
+        "crl_offset": 2624,
+        "ticket_offset": 2624,
+        "tmd_offset": 3328,
+        "data_offset": 3904,
+        "footer_offset": 24512,
+        "end_offset": 24576
+      },
+      "target_note": "BC boot content: native GameCube boot-chain executable to compare against Wii Mini behavior.",
+      "boot_content": {
+        "content_id": "00000008",
+        "index": 1,
+        "type_flags": "0x0001",
+        "type_flags_text": "normal",
+        "size": 20524,
+        "data_offset": 3968,
+        "sha1": "22b7c2ba3583fcca24134cca707fd339236afcc5",
+        "is_boot": true
+      },
+      "contents": [
+        {
+          "content_id": "00000007",
+          "index": 0,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 64,
+          "data_offset": 3904,
+          "sha1": "2064be40fe22148b7e3d76e5353cb44027a8a5b7",
+          "is_boot": false
+        },
+        {
+          "content_id": "00000008",
+          "index": 1,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 20524,
+          "data_offset": 3968,
+          "sha1": "22b7c2ba3583fcca24134cca707fd339236afcc5",
+          "is_boot": true
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "role": "mios",
+      "path": "wads/MIOS v10.wad",
+      "file_size": 185920,
+      "sha256": "79f412efd10455555cf8a58259d134090eb047e054494e146df21ef09e9ff5de",
+      "wad_type": "0x49730000",
+      "title_id": "0000000100000101",
+      "title": "00000001-00000101 (MIOS)",
+      "title_version": 10,
+      "content_count": 2,
+      "boot_index": 1,
+      "layout": {
+        "cert_offset": 64,
+        "crl_offset": 2624,
+        "ticket_offset": 2624,
+        "tmd_offset": 3328,
+        "data_offset": 3904,
+        "footer_offset": 185856,
+        "end_offset": 185920
+      },
+      "target_note": "MIOS boot content: GameCube-mode IOS payload; useful for compatibility comparison and installation dependency checks.",
+      "boot_content": {
+        "content_id": "0000000C",
+        "index": 1,
+        "type_flags": "0x0001",
+        "type_flags_text": "normal",
+        "size": 181864,
+        "data_offset": 3968,
+        "sha1": "e849d99072792235205196db153020cbc23a4975",
+        "is_boot": true
+      },
+      "contents": [
+        {
+          "content_id": "0000000B",
+          "index": 0,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 64,
+          "data_offset": 3904,
+          "sha1": "2c431337432b97b240a4214560358bb21e3411fa",
+          "is_boot": false
+        },
+        {
+          "content_id": "0000000C",
+          "index": 1,
+          "type_flags": "0x0001",
+          "type_flags_text": "normal",
+          "size": 181864,
+          "data_offset": 3968,
+          "sha1": "e849d99072792235205196db153020cbc23a4975",
+          "is_boot": true
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}

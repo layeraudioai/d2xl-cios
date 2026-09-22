@@ -43,6 +43,16 @@ NO ONE BUT YOURSELF IS RESPONSIBLE FOR ANY DAMAGE TO YOUR WII CONSOLE BECAUSE OF
   potentiometer adjustment or as a way to spoof the pickup's analog measurements.
 
 
+#### Wii Mini GameCube boot research
+
+  The `tools/wad-inspect` utility is a read-only metadata inspector for user-provided WADs.
+  It identifies System Menu (`00000001-00000002`), BC (`00000001-00000100`), and MIOS
+  (`00000001-00000101`) WADs and reports their versions, hashes, section offsets, content
+  counts, and TMD content records before any patching work is attempted. The companion
+  `wad_patch_prep.py` script validates those three title roles together and can write a JSON
+  patch-preparation report for later reverse-engineering notes.
+
+
 #### KUDOS
 
  * *rodries*, for the help with EHCI improvements.
