@@ -1,0 +1,7 @@
+.vscode/
+*/.vscode/
+*/build/
+build/
+*/wads/
+wads/
+*/tools/other/

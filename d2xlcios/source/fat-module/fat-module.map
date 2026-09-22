@@ -1,0 +1,750 @@
+Archive member included to satisfy reference by file (symbol)
+
+../cios-lib/cios-lib.a(fat_tools.o)
+                              main.o (FAT_Escape)
+../cios-lib/cios-lib.a(ipc.o)
+                              main.o (InvalidateVector)
+../cios-lib/cios-lib.a(mem.o)
+                              main.o (Mem_Init)
+../cios-lib/cios-lib.a(sdio.o)
+                              fat_wrapper.o (sdio_Startup)
+../cios-lib/cios-lib.a(syscalls.o)
+                              led.o (os_thread_create)
+../cios-lib/cios-lib.a(timer.o)
+                              main.o (Timer_Init)
+../cios-lib/cios-lib.a(tools.o)
+                              led.o (Swi_MLoad)
+../cios-lib/cios-lib.a(usbstorage.o)
+                              main.o (usbstorage_Shutdown)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+                              ../cios-lib/cios-lib.a(fat_tools.o) (__gnu_thumb1_case_sqi)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+                              main.o (__gnu_thumb1_case_uqi)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+                              main.o (__gnu_thumb1_case_uhi)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+                              ff.o (__aeabi_uidiv)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+                              ff.o (__aeabi_idiv)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+                              C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcat.o)
+                              fat_wrapper.o (strcat)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memcpy-stub.o)
+                              diskio.o (memcpy)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strlen.o)
+                              fat_wrapper.o (strlen)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strchr.o)
+                              fat_wrapper.o (strchr)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcpy.o)
+                              fat_wrapper.o (strcpy)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memset.o)
+                              ff.o (memset)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcmp.o)
+                              main.o (strcmp)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncpy.o)
+                              fat_wrapper.o (strncpy)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strnlen.o)
+                              fat_wrapper.o (strnlen)
+C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncmp.o)
+                              main.o (strncmp)
+
+Merging object attributes
+
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ccsbcs.o
+ .data          0x00000000        0x0 ccsbcs.o
+ .bss           0x00000000        0x0 ccsbcs.o
+ .text          0x00000000        0x0 diskio.o
+ .data          0x00000000        0x0 diskio.o
+ .bss           0x00000000        0x0 diskio.o
+ .text          0x00000000        0x0 fat_wrapper.o
+ .text          0x00000000        0x0 ff.o
+ .data          0x00000000        0x0 ff.o
+ .text          0x00000000        0x0 led.o
+ .text          0x00000000        0x0 main.o
+ .text          0x00000000        0x0 start.o
+ .data          0x00000000        0x0 start.o
+ .bss           0x00000000        0x0 start.o
+ .text          0x00000000        0x0 syscall.o
+ .data          0x00000000        0x0 syscall.o
+ .bss           0x00000000        0x0 syscall.o
+ .data          0x00000000        0x0 ../cios-lib/cios-lib.a(fat_tools.o)
+ .bss           0x00000000        0x0 ../cios-lib/cios-lib.a(fat_tools.o)
+ .data          0x00000000        0x0 ../cios-lib/cios-lib.a(ipc.o)
+ .bss           0x00000000        0x0 ../cios-lib/cios-lib.a(ipc.o)
+ .bss           0x00000000        0x0 ../cios-lib/cios-lib.a(mem.o)
+ .data          0x00000000        0x0 ../cios-lib/cios-lib.a(syscalls.o)
+ .bss           0x00000000        0x0 ../cios-lib/cios-lib.a(syscalls.o)
+ .bss           0x00000000        0x0 ../cios-lib/cios-lib.a(timer.o)
+ .data          0x00000000        0x0 ../cios-lib/cios-lib.a(tools.o)
+ .bss           0x00000000        0x0 ../cios-lib/cios-lib.a(tools.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcat.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcat.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcat.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memcpy-stub.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memcpy-stub.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memcpy-stub.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strlen.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strlen.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strlen.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strchr.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strchr.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strchr.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcpy.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcpy.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcpy.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memset.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memset.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcmp.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcmp.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncpy.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncpy.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncpy.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strnlen.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strnlen.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strnlen.o)
+ .text          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncmp.o)
+ .data          0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncmp.o)
+ .bss           0x00000000        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncmp.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+table            0x00000000         0x00004000
+exe              0x137b5000         0x00005000         xrw
+ram              0x137ba000         0x00023000         rw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x137b5000                        __exe_start_phys__ = 0x137b5000
+                0x137ba000                        __ram_start_phys__ = 0x137ba000
+
+.ios_info_table
+                0x00000000       0x34
+ *(.ios_info_table)
+ .ios_info_table
+                0x00000000       0x34 start.o
+                0x00000000                ios_info_table
+
+.init           0x137b5000       0x14
+ *(.init)
+ .init          0x137b5000       0x14 start.o
+                0x137b5000                _start
+                0x137b5014                        . = ALIGN (0x4)
+
+.text           0x137b5020     0x44b0
+ *(.text*)
+ .text.ff_convert
+                0x137b5020       0x3c ccsbcs.o
+                0x137b5020                ff_convert
+ .text.ff_wtoupper
+                0x137b505c       0x24 ccsbcs.o
+                0x137b505c                ff_wtoupper
+ .text.disk_initialize
+                0x137b5080        0xc diskio.o
+                0x137b5080                disk_initialize
+ .text.disk_status
+                0x137b508c       0x20 diskio.o
+                0x137b508c                disk_status
+ .text.disk_read
+                0x137b50ac       0x6e diskio.o
+                0x137b50ac                disk_read
+ .text.disk_write
+                0x137b511a       0x66 diskio.o
+                0x137b511a                disk_write
+ .text.disk_ioctl
+                0x137b5180       0x2a diskio.o
+                0x137b5180                disk_ioctl
+ .text.get_fattime
+                0x137b51aa        0x4 diskio.o
+                0x137b51aa                get_fattime
+ .text.__FAT_OpenDir
+                0x137b51ae       0x1e fat_wrapper.o
+                0x137b51ae                __FAT_OpenDir
+ .text.__FAT_ReadDirEntry
+                0x137b51cc       0x24 fat_wrapper.o
+                0x137b51cc                __FAT_ReadDirEntry
+ .text.__FAT_MountPartition
+                0x137b51f0       0x50 fat_wrapper.o
+                0x137b51f0                __FAT_MountPartition
+ .text.FAT_Mount
+                0x137b5240       0x4a fat_wrapper.o
+                0x137b5240                FAT_Mount
+ *fill*         0x137b528a        0x2 
+ .text.FAT_Unmount
+                0x137b528c       0x24 fat_wrapper.o
+                0x137b528c                FAT_Unmount
+ .text.FAT_GetPartition
+                0x137b52b0       0x1c fat_wrapper.o
+                0x137b52b0                FAT_GetPartition
+ .text.FAT_Open
+                0x137b52cc       0x40 fat_wrapper.o
+                0x137b52cc                FAT_Open
+ .text.FAT_Close
+                0x137b530c       0x1c fat_wrapper.o
+                0x137b530c                FAT_Close
+ .text.FAT_Read
+                0x137b5328       0x1c fat_wrapper.o
+                0x137b5328                FAT_Read
+ .text.FAT_Write
+                0x137b5344       0x1c fat_wrapper.o
+                0x137b5344                FAT_Write
+ .text.FAT_Seek
+                0x137b5360       0x34 fat_wrapper.o
+                0x137b5360                FAT_Seek
+ .text.FAT_CreateDir
+                0x137b5394       0x1c fat_wrapper.o
+                0x137b5394                FAT_CreateDir
+ .text.FAT_CreateFile
+                0x137b53b0       0x3c fat_wrapper.o
+                0x137b53b0                FAT_CreateFile
+ .text.FAT_ReadDir
+                0x137b53ec       0xfc fat_wrapper.o
+                0x137b53ec                FAT_ReadDir
+ .text.FAT_Delete
+                0x137b54e8       0x1c fat_wrapper.o
+                0x137b54e8                FAT_Delete
+ .text.FAT_DeleteDir
+                0x137b5504       0x78 fat_wrapper.o
+                0x137b5504                FAT_DeleteDir
+ .text.FAT_Rename
+                0x137b557c       0x30 fat_wrapper.o
+                0x137b557c                FAT_Rename
+ .text.FAT_GetStats
+                0x137b55ac       0x4c fat_wrapper.o
+                0x137b55ac                FAT_GetStats
+ .text.FAT_GetFileStats
+                0x137b55f8       0x1c fat_wrapper.o
+                0x137b55f8                FAT_GetFileStats
+ .text.FAT_GetUsage
+                0x137b5614       0xd0 fat_wrapper.o
+                0x137b5614                FAT_GetUsage
+ .text.mem_cpy  0x137b56e4       0x12 ff.o
+ .text.sum_sfn  0x137b56f6       0x20 ff.o
+ *fill*         0x137b5716        0x2 
+ .text.move_window
+                0x137b5718       0x98 ff.o
+ .text.sync     0x137b57b0       0xd4 ff.o
+ .text.get_fileinfo
+                0x137b5884      0x134 ff.o
+ .text.check_fs
+                0x137b59b8       0x98 ff.o
+ .text.chk_mounted
+                0x137b5a50      0x414 ff.o
+ .text.validate
+                0x137b5e64       0x3c ff.o
+ .text.clust2sect
+                0x137b5ea0       0x2c ff.o
+                0x137b5ea0                clust2sect
+ .text.get_fat  0x137b5ecc      0x114 ff.o
+                0x137b5ecc                get_fat
+ .text.dir_sdi  0x137b5fe0       0xdc ff.o
+ .text.put_fat  0x137b60bc      0x150 ff.o
+                0x137b60bc                put_fat
+ .text.create_chain
+                0x137b620c       0xbc ff.o
+ .text.dir_next
+                0x137b62c8      0x14c ff.o
+ .text.dir_find
+                0x137b6414      0x134 ff.o
+ .text.follow_path
+                0x137b6548      0x27c ff.o
+ .text.dir_read
+                0x137b67c4      0x108 ff.o
+ .text.dir_remove
+                0x137b68cc       0x58 ff.o
+ .text.remove_chain
+                0x137b6924       0x68 ff.o
+ .text.gen_numname
+                0x137b698c       0x70 ff.o
+                0x137b698c                gen_numname
+ .text.dir_register
+                0x137b69fc      0x1cc ff.o
+ .text.f_mount  0x137b6bc8       0x34 ff.o
+                0x137b6bc8                f_mount
+ .text.f_open   0x137b6bfc      0x1dc ff.o
+                0x137b6bfc                f_open
+ .text.f_read   0x137b6dd8      0x1a4 ff.o
+                0x137b6dd8                f_read
+ .text.f_write  0x137b6f7c      0x1e8 ff.o
+                0x137b6f7c                f_write
+ .text.f_sync   0x137b7164       0x8c ff.o
+                0x137b7164                f_sync
+ .text.f_close  0x137b71f0       0x10 ff.o
+                0x137b71f0                f_close
+ .text.f_lseek  0x137b7200      0x11c ff.o
+                0x137b7200                f_lseek
+ .text.f_opendir
+                0x137b731c       0x98 ff.o
+                0x137b731c                f_opendir
+ .text.f_readdir
+                0x137b73b4       0x78 ff.o
+                0x137b73b4                f_readdir
+ .text.f_stat   0x137b742c       0x54 ff.o
+                0x137b742c                f_stat
+ .text.f_unlink
+                0x137b7480       0xce ff.o
+                0x137b7480                f_unlink
+ *fill*         0x137b754e        0x2 
+ .text.f_mkdir  0x137b7550      0x1c0 ff.o
+                0x137b7550                f_mkdir
+ .text.f_rename
+                0x137b7710      0x15c ff.o
+                0x137b7710                f_rename
+ .text.__Led_BlinkThread
+                0x137b786c       0xb8 led.o
+                0x137b786c                __Led_BlinkThread
+ .text.Led_BlinkOn
+                0x137b7924       0x10 led.o
+                0x137b7924                Led_BlinkOn
+ .text.Led_BlinkOff
+                0x137b7934       0x10 led.o
+                0x137b7934                Led_BlinkOff
+ .text.Led_CreateBlinkThread
+                0x137b7944       0x30 led.o
+                0x137b7944                Led_CreateBlinkThread
+ .text.__FAT_Ioctl
+                0x137b7974       0x90 main.o
+                0x137b7974                __FAT_Ioctl
+ .text.__FAT_Ioctlv
+                0x137b7a04      0x186 main.o
+                0x137b7a04                __FAT_Ioctlv
+ *fill*         0x137b7b8a        0x2 
+ .text.__FAT_Initialize
+                0x137b7b8c       0x58 main.o
+                0x137b7b8c                __FAT_Initialize
+ .text.startup.main
+                0x137b7be4      0x2e8 main.o
+                0x137b7be4                main
+ .text.ff_memalloc
+                0x137b7ecc        0x8 syscall.o
+                0x137b7ecc                ff_memalloc
+ .text.ff_memfree
+                0x137b7ed4        0x8 syscall.o
+                0x137b7ed4                ff_memfree
+ .text          0x137b7edc      0x148 ../cios-lib/cios-lib.a(fat_tools.o)
+                0x137b7edc                FAT_Escape
+                0x137b7f58                FAT_Unescape
+ .text          0x137b8024       0x3a ../cios-lib/cios-lib.a(ipc.o)
+                0x137b8024                InvalidateVector
+                0x137b8040                FlushVector
+ *fill*         0x137b805e        0x2 
+ .text          0x137b8060       0x48 ../cios-lib/cios-lib.a(mem.o)
+                0x137b8060                Mem_Init
+                0x137b8080                Mem_Alloc
+                0x137b8094                Mem_Free
+ .text          0x137b80a8      0x658 ../cios-lib/cios-lib.a(sdio.o)
+                0x137b82c0                sdio_Deinitialize
+                0x137b82e8                sdio_Startup
+                0x137b8608                sdio_Shutdown
+                0x137b8624                sdio_ReadSectors
+                0x137b8684                sdio_WriteSectors
+                0x137b86e4                sdio_ClearStatus
+                0x137b86e8                sdio_IsInserted
+                0x137b86f4                sdio_IsInitialized
+ .text          0x137b8700      0x1b8 ../cios-lib/cios-lib.a(syscalls.o)
+                0x137b8700                os_thread_create
+                0x137b8708                os_thread_joint
+                0x137b8710                os_thread_cancel
+                0x137b8718                os_get_thread_id
+                0x137b8720                os_get_parent_thread_id
+                0x137b8728                os_thread_continue
+                0x137b8730                os_thread_stop
+                0x137b8738                os_thread_yield
+                0x137b8740                os_thread_get_priority
+                0x137b8748                os_thread_set_priority
+                0x137b8750                os_message_queue_create
+                0x137b8758                os_message_queue_destroy
+                0x137b8760                os_message_queue_send
+                0x137b8768                os_message_queue_send_now
+                0x137b8770                os_message_queue_receive
+                0x137b8778                os_register_event_handler
+                0x137b8780                os_unregister_event_handler
+                0x137b8788                os_create_timer
+                0x137b8790                os_restart_timer
+                0x137b8798                os_stop_timer
+                0x137b87a0                os_destroy_timer
+                0x137b87a8                os_timer_now
+                0x137b87b0                os_heap_create
+                0x137b87b8                os_heap_destroy
+                0x137b87c0                os_heap_alloc
+                0x137b87c8                os_heap_alloc_aligned
+                0x137b87d0                os_heap_free
+                0x137b87d8                os_device_register
+                0x137b87e0                os_open
+                0x137b87e8                os_close
+                0x137b87f0                os_read
+                0x137b87f8                os_write
+                0x137b8800                os_seek
+                0x137b8808                os_ioctl
+                0x137b8810                os_ioctlv
+                0x137b8818                os_open_async
+                0x137b8820                os_close_async
+                0x137b8828                os_read_async
+                0x137b8830                os_write_async
+                0x137b8838                os_seek_async
+                0x137b8840                os_ioctl_async
+                0x137b8848                os_ioctlv_async
+                0x137b8850                os_message_queue_ack
+                0x137b8858                os_software_IRQ
+                0x137b8860                __os_sync_before_read
+                0x137b8868                __os_sync_after_write
+                0x137b8870                os_ios_boot
+                0x137b8878                os_check_DI_reset
+                0x137b8880                os_kernel_set_version
+                0x137b8888                os_kernel_get_version
+                0x137b8890                os_virt_to_phys
+                0x137b8898                os_set_dvd_video_mode
+                0x137b88a0                os_set_ahbprot
+                0x137b88a8                svc_write
+ .text          0x137b88b8       0xb4 ../cios-lib/cios-lib.a(timer.o)
+                0x137b88b8                Timer_Init
+                0x137b8924                Timer_Sleep
+ *fill*         0x137b896c        0x4 
+ .text          0x137b8970       0x6c ../cios-lib/cios-lib.a(tools.o)
+                0x137b8970                DCInvalidateRange
+                0x137b8984                DCFlushRange
+                0x137b8998                ICInvalidate
+                0x137b89a4                Swi_MLoad
+                0x137b89ac                Perms_Read
+                0x137b89b4                Perms_Write
+                0x137b89bc                MEM2_Prot
+                0x137b89c8                VirtToPhys
+                0x137b89d0                PhysToVirt
+ .text          0x137b89dc      0x218 ../cios-lib/cios-lib.a(usbstorage.o)
+                0x137b89dc                __usbstorage_Read_Write
+                0x137b8abc                __usbstorage_GetCapacity
+                0x137b8b24                usbstorage_Shutdown
+                0x137b8b40                usbstorage_Init
+                0x137b8b8c                usbstorage_IsInserted
+                0x137b8b9a                usbstorage_ReadSectors
+                0x137b8bb8                usbstorage_WriteSectors
+                0x137b8bd8                usbstorage_GetSectorSize
+                0x137b8bf0                usbstorage_ClearStatus
+ .text          0x137b8bf4       0x14 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+                0x137b8bf4                __gnu_thumb1_case_sqi
+ .text          0x137b8c08       0x14 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+                0x137b8c08                __gnu_thumb1_case_uqi
+ .text          0x137b8c1c       0x14 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+                0x137b8c1c                __gnu_thumb1_case_uhi
+ .text          0x137b8c30      0x11c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+                0x137b8c30                __aeabi_uidiv
+                0x137b8c30                __udivsi3
+                0x137b8d2c                __aeabi_uidivmod
+ .text          0x137b8d4c      0x150 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+                0x137b8d4c                __divsi3
+                0x137b8d4c                __aeabi_idiv
+                0x137b8e7c                __aeabi_idivmod
+ .text          0x137b8e9c        0x4 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+                0x137b8e9c                __aeabi_idiv0
+                0x137b8e9c                __aeabi_ldiv0
+ .text.strcat   0x137b8ea0       0x70 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcat.o)
+                0x137b8ea0                strcat
+ .text.memcpy   0x137b8f10       0xac C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memcpy-stub.o)
+                0x137b8f10                memcpy
+ .text.strlen   0x137b8fbc       0x60 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strlen.o)
+                0x137b8fbc                strlen
+ .text.strchr   0x137b901c       0xbc C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strchr.o)
+                0x137b901c                strchr
+ .text.strcpy   0x137b90d8       0x10 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcpy.o)
+                0x137b90d8                strcpy
+ .text.memset   0x137b90e8       0x8c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memset.o)
+                0x137b90e8                memset
+ .text          0x137b9174      0x234 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcmp.o)
+                0x137b9174                strcmp
+ .text.strncpy  0x137b93a8       0x68 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncpy.o)
+                0x137b93a8                strncpy
+ .text.strnlen  0x137b9410       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strnlen.o)
+                0x137b9410                strnlen
+ .text.strncmp  0x137b9430       0x70 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncmp.o)
+                0x137b9430                strncmp
+ .text.strncmp.__stub
+                0x137b94a0       0x2c linker stubs
+ *(.gnu.warning)
+ *(.gnu.linkonce.t.*)
+ *(.init)
+ *(.glue_7)
+ .glue_7        0x137b94cc        0x0 linker stubs
+ *(.glue_7t)
+ .glue_7t       0x137b94cc        0x0 linker stubs
+                0x137b94cc                        . = ALIGN (0x4)
+
+.vfp11_veneer   0x137b94d0        0x0
+ .vfp11_veneer  0x137b94d0        0x0 linker stubs
+
+.v4_bx          0x137b94d0        0x0
+ .v4_bx         0x137b94d0        0x0 linker stubs
+
+.iplt           0x137b94d0        0x0
+ .iplt          0x137b94d0        0x0 ccsbcs.o
+
+.data           0x137ba000      0x14c
+ *(.data*)
+ .data          0x137ba000        0x4 fat_wrapper.o
+                0x137ba000                VolToPart
+ .data          0x137ba004        0x4 led.o
+ .data          0x137ba008       0xc8 main.o
+                0x137ba0cc                moduleName
+ .data          0x137ba0d0        0x4 ../cios-lib/cios-lib.a(mem.o)
+ *fill*         0x137ba0d4        0xc 
+ .data          0x137ba0e0       0x30 ../cios-lib/cios-lib.a(sdio.o)
+ .data          0x137ba110        0x8 ../cios-lib/cios-lib.a(timer.o)
+ *fill*         0x137ba118        0x8 
+ .data          0x137ba120       0x2a ../cios-lib/cios-lib.a(usbstorage.o)
+ *(.data.*)
+ *(.gnu.linkonce.d.*)
+                0x137ba14c                        . = ALIGN (0x4)
+ *fill*         0x137ba14a        0x2 
+
+.igot.plt       0x137ba14c        0x0
+ .igot.plt      0x137ba14c        0x0 ccsbcs.o
+
+.rodata         0x137ba14c      0x5ec
+ *(.rodata)
+ .rodata        0x137ba14c      0x4c0 ccsbcs.o
+ .rodata        0x137ba60c       0x8d ff.o
+ *all.rodata*(*)
+ *(.roda)
+ *(.rodata.*)
+ .rodata.str1.1
+                0x137ba699       0x7d fat_wrapper.o
+                                  0xa (size before relaxing)
+ .rodata.cst16  0x137ba716       0x20 fat_wrapper.o
+ .rodata.str1.1
+                0x137ba736        0x0 ff.o
+                                 0x10 (size before relaxing)
+ .rodata.str1.1
+                0x137ba736        0x0 main.o
+                                 0x42 (size before relaxing)
+ .rodata.str1.1
+                0x137ba736        0x0 ../cios-lib/cios-lib.a(fat_tools.o)
+                                 0x3f (size before relaxing)
+ *(.gnu.linkonce.r.*)
+                0x137ba738                        . = ALIGN (0x4)
+ *fill*         0x137ba736        0x2 
+
+.rel.dyn        0x137ba738        0x0
+ .rel.iplt      0x137ba738        0x0 ccsbcs.o
+
+.bss            0x137ba740    0x20698
+ *(.dynsbss)
+ *(.gnu.linkonce.sb.*)
+ *(.bss*)
+ .bss           0x137ba740     0x1130 fat_wrapper.o
+ .bss           0x137bb870        0xa ff.o
+ *fill*         0x137bb87a        0x6 
+ .bss           0x137bb880      0x400 led.o
+ .bss           0x137bbc80    0x1c000 main.o
+ .bss           0x137d7c80       0xd4 ../cios-lib/cios-lib.a(sdio.o)
+ *fill*         0x137d7d54        0xc 
+ .bss           0x137d7d60       0x78 ../cios-lib/cios-lib.a(usbstorage.o)
+ *(COMMON)
+ *(.ios_bss)
+ .ios_bss       0x137d7dd8     0x3000 start.o
+                0x137dadd8                ios_thread_stack
+                0x137dadd8                        . = ALIGN (0x4)
+LOAD ccsbcs.o
+LOAD diskio.o
+LOAD fat_wrapper.o
+LOAD ff.o
+LOAD led.o
+LOAD main.o
+LOAD start.o
+LOAD syscall.o
+LOAD ../cios-lib/cios-lib.a
+START GROUP
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a
+LOAD C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libsysbase.a
+END GROUP
+OUTPUT(fat-module.elf.orig elf32-bigarm)
+LOAD linker stubs
+
+.comment        0x00000000       0x18
+ .comment       0x00000000       0x18 ccsbcs.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 diskio.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 fat_wrapper.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ff.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 led.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 main.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 syscall.o
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ../cios-lib/cios-lib.a(fat_tools.o)
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ../cios-lib/cios-lib.a(ipc.o)
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ../cios-lib/cios-lib.a(mem.o)
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ../cios-lib/cios-lib.a(sdio.o)
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ../cios-lib/cios-lib.a(timer.o)
+                                 0x19 (size before relaxing)
+ .comment       0x00000018        0x0 ../cios-lib/cios-lib.a(usbstorage.o)
+                                 0x19 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2a
+ .ARM.attributes
+                0x00000000       0x2c ccsbcs.o
+ .ARM.attributes
+                0x0000002c       0x2c diskio.o
+ .ARM.attributes
+                0x00000058       0x2c fat_wrapper.o
+ .ARM.attributes
+                0x00000084       0x2c ff.o
+ .ARM.attributes
+                0x000000b0       0x2c led.o
+ .ARM.attributes
+                0x000000dc       0x2c main.o
+ .ARM.attributes
+                0x00000108       0x1c start.o
+ .ARM.attributes
+                0x00000124       0x2c syscall.o
+ .ARM.attributes
+                0x00000150       0x2c ../cios-lib/cios-lib.a(fat_tools.o)
+ .ARM.attributes
+                0x0000017c       0x2c ../cios-lib/cios-lib.a(ipc.o)
+ .ARM.attributes
+                0x000001a8       0x2c ../cios-lib/cios-lib.a(mem.o)
+ .ARM.attributes
+                0x000001d4       0x2c ../cios-lib/cios-lib.a(sdio.o)
+ .ARM.attributes
+                0x00000200       0x1c ../cios-lib/cios-lib.a(syscalls.o)
+ .ARM.attributes
+                0x0000021c       0x2c ../cios-lib/cios-lib.a(timer.o)
+ .ARM.attributes
+                0x00000248       0x1c ../cios-lib/cios-lib.a(tools.o)
+ .ARM.attributes
+                0x00000264       0x2c ../cios-lib/cios-lib.a(usbstorage.o)
+ .ARM.attributes
+                0x00000290       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .ARM.attributes
+                0x000002ac       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .ARM.attributes
+                0x000002c8       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .ARM.attributes
+                0x000002e4       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000300       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .ARM.attributes
+                0x0000031c       0x1c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000338       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcat.o)
+ .ARM.attributes
+                0x00000362       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memcpy-stub.o)
+ .ARM.attributes
+                0x0000038c       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strlen.o)
+ .ARM.attributes
+                0x000003b6       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strchr.o)
+ .ARM.attributes
+                0x000003e0       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcpy.o)
+ .ARM.attributes
+                0x0000040a       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-memset.o)
+ .ARM.attributes
+                0x00000434       0x1a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcmp.o)
+ .ARM.attributes
+                0x0000044e       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncpy.o)
+ .ARM.attributes
+                0x00000478       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strnlen.o)
+ .ARM.attributes
+                0x000004a2       0x2a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strncmp.o)
+
+.debug_line     0x00000000      0x21b
+ .debug_line    0x00000000       0x52 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .debug_line    0x00000052       0x52 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .debug_line    0x000000a4       0x53 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .debug_line    0x000000f7       0x67 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .debug_line    0x0000015e       0x73 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .debug_line    0x000001d1       0x4a C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+
+.debug_line_str
+                0x00000000       0xd0
+ .debug_line_str
+                0x00000000       0xd0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .debug_line_str
+                0x000000d0        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+                                 0xd0 (size before relaxing)
+ .debug_line_str
+                0x000000d0        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+                                 0xd0 (size before relaxing)
+ .debug_line_str
+                0x000000d0        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+                                 0xd0 (size before relaxing)
+ .debug_line_str
+                0x000000d0        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+                                 0xd0 (size before relaxing)
+ .debug_line_str
+                0x000000d0        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+                                 0xd0 (size before relaxing)
+
+.debug_info     0x00000000      0x14b
+ .debug_info    0x00000000       0x31 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .debug_info    0x00000031       0x31 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .debug_info    0x00000062       0x31 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .debug_info    0x00000093       0x3e C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .debug_info    0x000000d1       0x3e C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .debug_info    0x0000010f       0x3c C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+
+.debug_abbrev   0x00000000       0xee
+ .debug_abbrev  0x00000000       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .debug_abbrev  0x00000028       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .debug_abbrev  0x00000050       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .debug_abbrev  0x00000078       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .debug_abbrev  0x000000a0       0x28 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .debug_abbrev  0x000000c8       0x26 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+
+.debug_aranges  0x00000000       0xc0
+ .debug_aranges
+                0x00000000       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+ .debug_aranges
+                0x00000020       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+ .debug_aranges
+                0x00000040       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+ .debug_aranges
+                0x00000060       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .debug_aranges
+                0x00000080       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .debug_aranges
+                0x000000a0       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+
+.debug_str      0x00000000      0x170
+ .debug_str     0x00000000      0x170 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_sqi.o)
+                                 0xf4 (size before relaxing)
+ .debug_str     0x00000170        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uqi.o)
+                                 0xf4 (size before relaxing)
+ .debug_str     0x00000170        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_thumb1_case_uhi.o)
+                                 0xf4 (size before relaxing)
+ .debug_str     0x00000170        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+                                 0xf9 (size before relaxing)
+ .debug_str     0x00000170        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+                                 0xf7 (size before relaxing)
+ .debug_str     0x00000170        0x0 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_dvmd_tls.o)
+                                 0xfa (size before relaxing)
+
+.debug_frame    0x00000000       0x80
+ .debug_frame   0x00000000       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_udivsi3.o)
+ .debug_frame   0x00000020       0x20 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/thumb/be\libgcc.a(_divsi3.o)
+ .debug_frame   0x00000040       0x40 C:/devkitPro/devkitARM/bin/../lib/gcc/arm-none-eabi/16.1.0/../../../../arm-none-eabi/lib/thumb/be\libc.a(libc_a-strcmp.o)
